@@ -24,7 +24,6 @@ This application not requires a network connection to work.
 - [x] Simple ToDo List (with important tasks or not).
 - [x] Simple press to modify a task.
 - [x] Long press to delete, edit, cancal or done a task.
-- [x] Ready to Publish.
 - [x] Language : English.
 
 
