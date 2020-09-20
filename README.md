@@ -57,8 +57,7 @@ If you just want to install this application on your device, follow this instruc
 3. Enjoy (and develop your specific function)
 
 
-
-
+## Screens
 
 
 <img src="screenshots/todo_instruction-01.png" width="250"> <img src="screenshots/todo_instruction-02.png" width="250">
