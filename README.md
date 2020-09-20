@@ -1,3 +1,13 @@
+```
+> Room database 
+> MVP pattern
+> SharedPreferences storage
+> ViewPager
+> RecyclerView
+> Picasso
+> Circular ImageView 
+> DateTime Picker
+```
 # ToDo - Android
 > This application makes it easy to manage your task list on Android phones & tablets.
 
@@ -37,6 +47,8 @@ If you just want to install this application on your device, follow this instruc
 
 
 ## Installation (for developers)
+
+
 
 1. Clone this project in your project folder : `git clone https://github.com/jagito97/todo_and_note`
 
