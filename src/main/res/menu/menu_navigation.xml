@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/allTodo"
+            android:icon="@drawable/ic_menu_all_todo"
+            android:title="All TODO" />
+
+        <item
+            android:id="@+id/historyBtn"
+            android:icon="@drawable/ic_menu_history_24"
+            android:title="History" />
+
+        <item
+            android:id="@+id/trashBtn"
+            android:icon="@drawable/ic_menu_trash"
+            android:title="Trash" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/termsButton"
+            android:icon="@drawable/ic_menu_terms_of_conditions"
+            android:title="Terms of Conditions" />
+
+        <item
+            android:id="@+id/instructionsButton"
+            android:icon="@drawable/ic_menu_instructions"
+            android:title="Instructions for use" />
+    </group>
+
+    <group android:checkableBehavior="single"
+        android:id="@+id/li">
+        <item
+            android:id="@+id/shareBtn"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+    </group>
+</menu>

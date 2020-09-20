@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="#ECC0CE"
+    android:padding="5dp">
+
+    <TextView
+        android:id="@+id/todoTitleDialog"
+        android:layout_width="match_parent"
+        android:layout_height="?android:actionBarSize"
+        android:background="@drawable/bg_close_button"
+        android:padding="10dp"
+        android:gravity="center"
+        tools:text="test"
+        android:textColor="@color/white"
+        android:textColorHint="@color/white"
+        android:textSize="24sp"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/labelNameDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/textColorUI"
+        android:textColorHint="@color/textColorUI"
+        android:textSize="18sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/todoTitleDialog"
+        tools:text="HomeWorks" />
+
+    <TextView
+        android:id="@+id/deadlineTimeDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/textColorUI"
+        android:textColorHint="@color/textColorUI"
+        android:textSize="18sp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/todoTitleDialog"
+        tools:text="12:25 01.06.2020" />
+
+    <TextView
+        android:id="@+id/hashTagDialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="@drawable/bg_text_view"
+        android:padding="10dp"
+        android:textColor="@color/textColorUI"
+        android:textColorHint="@color/textColorUI"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/deadlineTimeDialog"
+        tools:text="text test" />
+
+    <TextView
+        android:id="@+id/descriptionDialog"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_margin="5dp"
+        android:layout_marginBottom="5dp"
+        android:background="@drawable/bg_text_view"
+        android:minHeight="250dp"
+        android:padding="10dp"
+        android:textColor="@color/textColorUI"
+        android:textColorHint="@color/textColorUI"
+        android:textSize="18sp"
+        app:layout_constraintTop_toBottomOf="@id/hashTagDialog"
+        tools:text="text test " />
+
+    <TextView
+        android:id="@+id/closeDialog"
+        android:layout_width="85dp"
+        android:layout_height="45dp"
+        android:layout_margin="15dp"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_close_button"
+        android:text="Close"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descriptionDialog" />
+</androidx.constraintlayout.widget.ConstraintLayout>

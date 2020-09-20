@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/actionEditAllTodo"
+        android:icon="@drawable/ic_edit"
+        android:title="Edit"
+        app:showAsAction="withText" />
+
+    <item
+        android:id="@+id/actionDeleteAllTodo"
+        android:icon="@drawable/ic_delete"
+        android:title="Delete" />
+
+    <item
+        android:id="@+id/actionCloneAllTodo"
+        android:icon="@drawable/ic_baseline_clone"
+        android:title="Clone" />
+
+    <item
+        android:id="@+id/actionDoneAllTodo"
+        android:icon="@drawable/ic_check_circle"
+        android:title="Done"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/actionCancelAllTodo"
+        android:icon="@drawable/ic_baseline_cancel"
+        android:title="Cancel"
+        app:showAsAction="never" />
+</menu>
