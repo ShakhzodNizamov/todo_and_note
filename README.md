@@ -38,7 +38,7 @@ If you just want to install this application on your device, follow this instruc
 
 ## Installation (for developers)
 
-1. Clone this project in your project folder : `git clone https://github.com/WestFR/ToDoList-Android`
+1. Clone this project in your project folder : `git clone https://github.com/jagito97/todo_and_note`
 
 2. Open this project thank your Android Studio and make one `Build Gradle Sync`
 
