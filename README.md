@@ -38,7 +38,7 @@ This application not requires a network connection to work.
 If you just want to install this application on your device, follow this instructions.
 
 1. Download the .APK on this link : 
-`https://github.com/jagito97/todo_and_note/blob/master/app_build_debug/app-debug.apk`
+`https://github.com/ShakhzodNizamov/todo_and_note/blob/master/app_build_debug/app-debug.apk`
 
 2. Install this .APK on your device
 
@@ -49,7 +49,7 @@ If you just want to install this application on your device, follow this instruc
 
 
 
-1. Clone this project in your project folder : `git clone https://github.com/jagito97/todo_and_note`
+1. Clone this project in your project folder : `git clone https://github.com/ShakhzodNizamov/todo_and_note`
 
 2. Open this project thank your Android Studio and make one `Build Gradle Sync`
 
